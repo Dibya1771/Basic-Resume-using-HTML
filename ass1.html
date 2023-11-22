@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+    <title>Assignment-1: Design of Profile page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 5px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: linear-gradient(white, #03FFAF, #268fff, rgb(201, 99, 255));
+        }
+
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            width: 100%;
+            /* color: #ffa1ff; */
+        }
+
+        .main img {
+            height: 250px;
+            border-radius: 10%;
+            border-style: ridge;
+        }
+
+        table {
+            margin-left: 60px;
+            width: 91.9%;
+            border-spacing: 0px;
+            text-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid #22292E;
+        }
+
+        section ul li {
+            margin-left: 60px;
+        }
+
+        p {
+            margin-left: 60px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            padding: 5px;
+            background-color: #22292E;
+            color: #F2F6F7;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #22292E;
+            position: sticky;
+            top: 0px;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar ul li {
+            padding: 5px 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #F2F6F7;
+            transition: all .5s ease;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #AC1AF9;
+            color: black;
+            box-shadow: 0 0 10px #AC1AF9;
+            border-radius: 4px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .main dl dt {
+            font-size: 26px;
+            text-decoration: bold;
+        }
+
+        /* dl dd {
+            font-size: 20px;
+        } */
+
+        section ol li {
+            margin-left: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <!-- (i) -->
+        <div class="name">
+            <h1 style="font-size: 40px;">Dibya Ranjan Rath</h1>
+            <dl>
+                <dt style="font-size: 25px;">
+                    Present Address:
+                </dt>
+                <dd style="font-size: 18px;">
+                    Room no. 829, Boys Residence II,
+                    Silicon Institute of Technology,
+                    Bhubaneswar, Odisha-751024
+                </dd>
+                <dt style="font-size: 25px;">Mobile:</dt>
+                <dd><a href="7847965xxx">
+                        7847965xxx</a></dd>
+                <dt style="font-size: 25px;">
+                    Email id:
+                </dt>
+                <dd style="font-size: 18px;">
+                    <a href="dibyaranjanrath02@gmail.com">
+                        dibyaranjanrath02@gmail.com</a><br>
+                    <a href="cse.20bcse62@silicon.ac.in">
+                        cse.20bcse62@silicon.ac.in</a>
+
+        </div>
+        <img src="./biku.jpg"></dd>
+        </dl>
+    </div>
+
+    <!--iv-->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Obj">Objective</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#work">Internships</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#cert">Certifications</a></li>
+            <li><a href="#lang">Languages</a></li>
+        </ul>
+    </nav>
+
+    <h2 id="Obj">Objective</h2>
+    <p>Joining an organization where I can utilize my skills for future development for designing websites.</p>
+    <!-- (ii) -->
+    <table>
+        <h2 id="edu">Education</h2>
+        <thead>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Year of passing</th>
+            <th>Board</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>B-Tech(CSE)</td>
+                <td>Silicon Institute Of Technology</td>
+                <td>2024</td>
+                <td>BPUT</td>
+            </tr>
+            <tr>
+                <td>Intermediate XII</td>
+                <td>DAV T.T.P.S Higher Secondary School</td>
+                <td>2020</td>
+                <td>CHSE</td>
+            </tr>
+            <tr>
+                <td>Matriculation</td>
+                <td>DAV Talcher Thermal High School</td>
+                <td>2018</td>
+                <td>BSE</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- (iii) -->
+    <section>
+        <h2 id="work">Work Experience/Internships</h2>
+        <ol type="square">
+            <li>Java(Syllogistek Systems Pvt Ltd)</li>
+            <li>Full Stack with Django(Divine AI Pvt Ltd)</li>
+        </ol>
+        <h2 id="Project">Projects</h2>
+        <ol type="square">
+            <li style="font-size: 18px;">
+                <b>Pest control(Agrocure):</b>
+            </li>
+            <p>A full stack web project in HTML, CSS, JAVASCRIPT Using Django
+                framework that stores data of all pests & it's effect on plants and tells which pesticide can be used.
+            </p>
+
+            <li style="font-size: 18px;"><b>Tinder clone:</b></li>
+            <p>It is a java framework project where we can take data from user and store in database
+                and create matches of two individuals.</p>
+        </ol>
+        <h2 id="Skills">Skills</h2>
+        <div style="height: 125px;">
+            <div style=" float: left; ">
+                <ul type="square">
+                    <li>Java</li>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+            <div style=" margin-left: 500px;">
+                <ul type="square">
+                    <li>C</li>
+                    <li>DSA</li>
+                    <li>python</li>
+                    <li>Oracle</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- <h2>Achievements</h2>
+        <ul>
+            <li>HackerRank</li>
+        </ul> -->
+        <h2 id="cert">Certifications</h2>
+        <ul type="square">
+            <li>Amazon Web Services(Amazon)</li>
+            <li>Java(Syllogistek Systems Pvt Ltd)</li>
+            <li>Full Stack with Django(Divine AI Pvt Ltd)</li>
+        </ul>
+        <h2 id="lang">Languages</h2>
+        <ul type="square">
+            <li>Odia</li>
+            <li>Hindi</li>
+            <li>English</li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
